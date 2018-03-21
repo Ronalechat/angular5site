@@ -239,7 +239,7 @@ var ContactComponent = /** @class */ (function () {
 /***/ "./src/app/header/header.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"full-width nav header pull-top\">\n  <div class=\"border-container\">\n    <div class=\"hexagon\">\n      <a ui-sref=\"home\" class=\"home-link\">\n        <span class=\"name-first\">Michael</span>\n        <span class=\"name-middle\">Z</span>\n        <span class=\"name-last\">Lin</span>\n      </a>\n    </div>\n  </div>\n</div>\n"
+module.exports = "<div class=\"full-width nav header pull-top\">\n  <div class=\"border-container\">\n    <div class=\"hexagon\">\n      <a href=\"/angular5site/home\" class=\"home-link\">\n        <span class=\"name-first\">Michael</span>\n        <span class=\"name-middle\">Z</span>\n        <span class=\"name-last\">Lin</span>\n      </a>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -333,7 +333,7 @@ var HomeComponent = /** @class */ (function () {
 /***/ "./src/app/nav-footer/nav-footer.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"full-width nav footer pull-bottom\">\n  <a class=\"clickable\" href=\"/home\">\n    <div class=\"full-width\">\n      <span class=\"footer-text\">W&nbsp;O&nbsp;R&nbsp;K</span>\n      <i class=\"fas fa-cubes\"></i>\n    </div>\n  </a>\n</div>\n"
+module.exports = "<div class=\"full-width nav footer pull-bottom\">\n  <a class=\"clickable\" href=\"/angular5site/home\">\n    <div class=\"full-width\">\n      <span class=\"footer-text\">W&nbsp;O&nbsp;R&nbsp;K</span>\n      <i class=\"fas fa-cubes\"></i>\n    </div>\n  </a>\n</div>\n"
 
 /***/ }),
 
