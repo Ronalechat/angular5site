@@ -24,7 +24,7 @@ contact {
 }
 
 .contact-container {
-  margin:10vh 11vh 0 11vh;
+  margin:9vh 11vh 0 11vh;
   background-color: $mzl-grey;
   height: 81vh;
   overflow-y: hidden;
@@ -34,7 +34,7 @@ contact {
     font-size: 0;
     width:50%;
     display: inline-block;
-    height: 80vh;
+    height: 81vh;
     font-family: 'Poppins', sans-serif;
     &-left {
       background-color:$mzl-dark-grey;
@@ -49,6 +49,7 @@ contact {
         padding: 7vh 3vw 7vh 3vw;
         height:80vh;
         position: relative;
+        font-family: 'Enriqueta', serif;
       }
     }
     &-right {

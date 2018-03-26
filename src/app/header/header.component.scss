@@ -34,7 +34,7 @@ $thetransition: all .5s cubic-bezier(1,.25,0,.75) 0s;
       padding:6px 6px 2px 6px;
       color: $mzl-grey;
       position: relative;
-      top:16%;
+      top:50%;
       left:50%;
       transform: translate(-50%, -50%);
       float:left;
@@ -84,8 +84,10 @@ $thetransition: all .5s cubic-bezier(1,.25,0,.75) 0s;
 }
 
 .hexagon:before {
-  bottom: 6.5vh;
   border-bottom: 4vh solid $mzl-dark-grey;
+  position: absolute;
+  left: 0;
+  bottom: 8vh;
 }
 
 .hexagon:after {
