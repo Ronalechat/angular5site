@@ -333,7 +333,7 @@ var HomeComponent = /** @class */ (function () {
 /***/ "./src/app/nav-footer/nav-footer.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"full-width nav footer pull-bottom\">\n  <a class=\"clickable\" href=\"/angular5site/home\">\n    <div class=\"full-width\">\n      <span class=\"footer-text\">W&nbsp;O&nbsp;R&nbsp;K</span>\n      <i class=\"fas fa-cubes\"></i>\n    </div>\n  </a>\n</div>\n"
+module.exports = "<div class=\"full-width nav footer pull-bottom\">\n  <a [routerLink]=\"['/home']\" class=\"clickable\">\n    <div class=\"full-width\">\n      <span class=\"footer-text\">W&nbsp;O&nbsp;R&nbsp;K</span>\n      <i class=\"fas fa-cubes\"></i>\n    </div>\n  </a>\n</div>\n"
 
 /***/ }),
 
@@ -383,7 +383,7 @@ var NavFooterComponent = /** @class */ (function () {
 /***/ "./src/app/nav-left/nav-left.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"full-height-left full-height nav left pull-left\">\n  <a class=\"clickable\" href=\"/angular5site/about\">\n    <div class=\"full-height\">\n      <span class=\"vertical-text-left\">A B O U T</span>\n      <i class=\"fas fa-child\"></i>\n    </div>\n  </a>\n</div>\n"
+module.exports = "<div class=\"full-height-left full-height nav left pull-left\">\n  <!-- <a class=\"clickable\" href=\"/angular5site/about\"> -->\n  <a [routerLink]=\"['/about']\" class=\"clickable\">\n    <div class=\"full-height\">\n      <span class=\"vertical-text-left\">A B O U T</span>\n      <i class=\"fas fa-child\"></i>\n    </div>\n  </a>\n</div>\n"
 
 /***/ }),
 
@@ -433,7 +433,7 @@ var NavLeftComponent = /** @class */ (function () {
 /***/ "./src/app/nav-right/nav-right.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"full-height-right full-height nav right pull-right\">\n  <a class=\"clickable\" href=\"/angular5site/contact\">\n    <div class=\"full-height\">\n      <span class=\"vertical-text-right\">C O N T A C T</span>\n      <i class=\"fas fa-braille\"></i>\n    </div>\n  </a>\n</div>\n"
+module.exports = "<div class=\"full-height-right full-height nav right pull-right\">\n  <a [routerLink]=\"['/contact']\" class=\"clickable\">\n    <div class=\"full-height\">\n      <span class=\"vertical-text-right\">C O N T A C T</span>\n      <i class=\"fas fa-braille\"></i>\n    </div>\n  </a>\n</div>\n"
 
 /***/ }),
 
