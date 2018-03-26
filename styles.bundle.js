@@ -42,7 +42,7 @@ module.exports = "/*!\n * Bootstrap v4.0.0 (https://getbootstrap.com)\n * Copyri
 /***/ "./node_modules/raw-loader/index.js!./node_modules/postcss-loader/lib/index.js??embedded!./node_modules/sass-loader/lib/loader.js??ref--8-3!./src/sass/styles.scss":
 /***/ (function(module, exports) {
 
-module.exports = "html, body {\n  width: 100%;\n  height: 100%;\n  max-height: 100vh;\n  max-width: 100vw;\n  margin: 0px;\n  padding: 0px;\n  overflow-x: hidden;\n  overflow-y: hidden;\n  background-color: #ECECEC; }\n\n.full-height {\n  width: 6vw;\n  min-height: 100vh;\n  display: inline-block;\n  text-align: center; }\n"
+module.exports = "html, body {\n  width: 100%;\n  height: 100%;\n  max-height: 100vh;\n  max-width: 100vw;\n  margin: 0px;\n  padding: 0px;\n  overflow-x: hidden;\n  overflow-y: hidden; }\n\n.full-height {\n  width: 6vw;\n  min-height: 100vh;\n  display: inline-block;\n  text-align: center; }\n"
 
 /***/ }),
 
