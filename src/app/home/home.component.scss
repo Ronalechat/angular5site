@@ -142,34 +142,34 @@ home {
           width: 100%;
           padding-top: 66.666666%;
           position: relative;
-          .rotv-image {
-            transition: all .08s ease-out;
-            position: relative;
-            background-image: url('/assets/img/ROTVstabby.jpg');
-            width:150%;
-            height:100%;
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: 50% 50%;
-            left: -9.4vw;
-            opacity: 0.8;
-            display: block;
-            -webkit-clip-path: polygon(24.5% 3%, 84.7% 3%, 84.7% 97%, 24.5% 97%);
-            clip-path: polygon(24.5% 3%, 84.7% 3%, 84.7% 97%, 24.5% 97%);
-            -webkit-filter: grayscale(100%);
-            filter: grayscale(100%);
-          }
+        }
+        .rotv-image {
+          transition: all .08s ease-out;
+          position: relative;
+          background-image: url('/assets/img/ROTVstabby.jpg');
+          width:150%;
+          height:100%;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: 50% 50%;
+          left: -9.4vw;
+          opacity: 0.8;
+          display: block;
+          -webkit-clip-path: polygon(24.5% 3%, 84.7% 3%, 84.7% 97%, 24.5% 97%);
+          clip-path: polygon(24.5% 3%, 84.7% 3%, 84.7% 97%, 24.5% 97%);
+          // -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
         }
       }
-      .rotv-container:hover{
+      .rotv-container:hover {
         & .rotv-image {
           transition: all 0.08s ease-in;
           opacity: 1;
-          left: -14.9vw;
-          -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 100%, 0% 100%);
-          clip-path: polygon(0% 0%, 100% 0, 100% 100%, 0% 100%);
+          left: -14.5vw;
           -webkit-filter: grayscale(0%);
           filter: grayscale(0%);
+          -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 100%, 0% 100%);
+          clip-path: polygon(0% 0%, 100% 0, 100% 100%, 0% 100%);
         }
         & .rotv-text {
           transition: opacity 0.08s ease-in;
@@ -190,14 +190,14 @@ home {
           position: relative;
           background-image: url('/assets/img/wrsbg.png');
           width:100%;
-          height:190%;
+          height:100%;
           background-size: cover;
           background-repeat: no-repeat;
           background-position: 105% 50%;
           display: block;
           opacity: 0.8;
-          -webkit-clip-path: polygon(5% 1.5%, 95% 1.5%, 95% 51%, 5% 51%);
-          clip-path: polygon(5% 1.5%, 95% 1.5%, 95% 51%, 5% 51%);
+          -webkit-clip-path: polygon(5% 3%, 95% 3%, 95% 97%, 5% 97%);
+          clip-path: polygon(5% 3%, 95% 3%, 95% 97%, 5% 97%);
           -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
         }
@@ -211,7 +211,6 @@ home {
           width: calc(99vw / 3.38);
           font-size: 5vh;
           opacity: 0;
-          // visibility: hidden;
           &.top {
             transition: margin-top 0.08s ease-out;
             margin-top: 15vh;
