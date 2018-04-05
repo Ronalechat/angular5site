@@ -15,7 +15,7 @@ $mzl-grey: #ECECEC;
   display: block;
   text-align: center;
   background-color: $mzl-grey;
-  transition: all 0.3s ease-out;
+  transition: all 0.6s ease-out;
   .clickable {
     div {
       .footer-text {
@@ -28,7 +28,7 @@ $mzl-grey: #ECECEC;
         vertical-align: middle;
         text-decoration: none;
         font-family: 'PT Sans Narrow', sans-serif;
-        font-size: 7vh;
+        font-size: 3rem;
         white-space: nowrap;
         color: $mzl-dark-grey;
         font-weight: bold;
@@ -46,13 +46,13 @@ $mzl-grey: #ECECEC;
 }
 
 .footer:hover {
-  transition: all .4s ease-in;
+  transition: all .8s ease;
   background-color: $mzl-light-blue;
   & .footer-text {
     visibility: hidden;
   }
   & .fa-cubes {
-    font-size: 7vh;
+    font-size: 4rem;
     visibility: visible;
     color: $mzl-grey;
     margin-top: 1vh;

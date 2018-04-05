@@ -6,6 +6,12 @@ $mzl-blue: #5DA2D5;
 $mzl-dark-grey: #3E3E3E;
 $mzl-grey: #ECECEC;
 
+@media only screen and (max-width: 600px) {
+    .full-height {
+        background-color: lightblue;
+    }
+}
+
 .full-height-left {
   background-color: $mzl-grey;
   float: left;
@@ -24,7 +30,7 @@ $mzl-grey: #ECECEC;
         transform-origin: left top 0;
         font-family: 'PT Sans Narrow', sans-serif;
         font-weight: bold;
-        font-size: 7vh;
+        font-size: 3rem;
         white-space: nowrap;
         color: $mzl-dark-grey;
       }
@@ -45,7 +51,7 @@ $mzl-grey: #ECECEC;
   & .fa-child {
     transition-delay: 400ms;
     transition: font-size 600ms ease-in;
-    font-size: 5vw;
+    font-size: 4rem;
     margin-top: 45vh !important;
     position: absolute;
     left:2.9vw;

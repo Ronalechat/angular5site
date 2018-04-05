@@ -24,9 +24,8 @@ $mzl-grey: #ECECEC;
         transform-origin: left top 0;
         font-family: 'PT Sans Narrow', sans-serif;
         font-weight: bold;
-        font-size: 7vh;
+        font-size: 3rem;
         white-space: nowrap;
-        // margin-top: -26vw;
         color: $mzl-dark-grey;
       }
       .fa-braille:before {
@@ -52,7 +51,7 @@ $mzl-grey: #ECECEC;
     transition: visibility 0.5s linear,
                 color 0.1s ease-in,
                 transform 0.3s ease-in;
-    font-size: 7vh;
+    font-size: 4rem;
     visibility: visible;
     margin-top: 46vh;
     color:#fff;

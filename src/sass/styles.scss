@@ -13,7 +13,8 @@ html, body {
 }
 
 .full-height {
-  width:100%;
+  max-width:100%;
+  width: 9vw;
   min-height:100vh;
   display: inline-block;
   text-align: center;
