@@ -23,7 +23,7 @@ about {
 }
 
 .about-container {
-  margin:9vh 11vh 0 11vh;
+  margin:9vh 0 0 0;
   background-color: $mzl-grey;
   height: 81vh;
   overflow-y: hidden;
@@ -37,16 +37,16 @@ about {
     &-left {
       background-color: $mzl-yellow;
       .bigtext {
-        font-size: 10vh;
+        font-size: 4.2rem;
         text-align: left;
         display: inline-block;
-        padding: 8vh 0 0 2vw;
+        padding: 8vh 0 0 4vh;
         font-family: 'Poppins', sans-serif;
       }
       .about-blurb {
-        font-size: 3vh;
+        font-size: 1.2rem;
         color: $mzl-dark-grey;
-        padding: 1vh 0vh 1vh 4vw;
+        padding: 1vh 0vh 0 0;
         font-family: 'Enriqueta', serif;
         display: inline-block;
         float: left;
@@ -56,8 +56,8 @@ about {
         width: calc(100% - 2vw);
       }
       .resume {
-        font-size: 2.5vh;
-        padding: .5vh 0vh 0vh 4vw;
+        font-size: .9rem;
+        padding: .5vh 0vh 0vh 0;
         a {
           text-decoration: none;
           color: $mzl-grey;
@@ -67,14 +67,12 @@ about {
         }
       }
       .icon-wrapper {
-        position: absolute;
-        top:72vh;
-        width: 44vw;
+        position: relative;
+        top:2vh;
+        // width: 44vw;
         text-align: center;
         font-family: 'Poppins', sans-serif;
         .icon-container {
-          display: inline-block;
-          padding: 0 1.5vw;
           line-height: 4vh;
           .icon {
             transition: all 0.08s ease-out;

@@ -14,20 +14,19 @@ $mzl-grey: #ECECEC;
     .full-height {
       .vertical-text-left {
         position: absolute;
-        top: 46%;
+        top: 61%;
+        left: 3vw;
         transform: translate(-50%, -50%);
         display: inline-block;
         vertical-align: -webkit-baseline-middle;
         text-decoration: none;
         transform: rotate(270deg);
         transform-origin: left top 0;
-        left: 3vw;
         font-family: 'PT Sans Narrow', sans-serif;
         font-weight: bold;
         font-size: 7vh;
         white-space: nowrap;
         color: $mzl-dark-grey;
-        margin-top: 7vw;
       }
       .fa-child {
         color: $mzl-grey;
@@ -46,10 +45,10 @@ $mzl-grey: #ECECEC;
   & .fa-child {
     transition-delay: 400ms;
     transition: font-size 600ms ease-in;
-    font-size: 7vh;
+    font-size: 5vw;
     margin-top: 45vh !important;
     position: absolute;
-    left:1.8vw;
+    left:2.9vw;
   }
   & .fa-child:after {
     transition: all 1s ease-in;

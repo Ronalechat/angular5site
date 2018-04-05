@@ -14,7 +14,7 @@ $mzl-grey: #ECECEC;
     .full-height {
       .vertical-text-right {
         position: absolute;
-        top: 83%;
+        top: 33%;
         left: 5.5vw;
         transform: translate(-50%, -50%);
         display: inline-block;
@@ -26,7 +26,7 @@ $mzl-grey: #ECECEC;
         font-weight: bold;
         font-size: 7vh;
         white-space: nowrap;
-        margin-top: -26vw;
+        // margin-top: -26vw;
         color: $mzl-dark-grey;
       }
       .fa-braille:before {
@@ -54,7 +54,7 @@ $mzl-grey: #ECECEC;
                 transform 0.3s ease-in;
     font-size: 7vh;
     visibility: visible;
-    margin-top: 49vh;
+    margin-top: 46vh;
     color:#fff;
     transform: rotate(90deg);
   }
