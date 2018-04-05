@@ -13,8 +13,17 @@ html, body {
 }
 
 .full-height {
-  width:6vw;
+  width:100%;
   min-height:100vh;
   display: inline-block;
   text-align: center;
+}
+
+.col-sm-1, .col-sm-10, .col-sm-12 {
+  padding: 0;
+  min-height: 0px;
+}
+
+.row {
+  max-height:100vh;
 }
